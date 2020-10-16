@@ -1,0 +1,9 @@
+<suite name="Extent TestSuite">
+	<test name="Chrome Test">
+		<classes>
+			<class name="useful.ExtentReportTest"></class>
+			<class name="useful.ExtentReportTest1"></class>
+			<class name="useful.ExtentReportTest2"></class>
+		</classes>
+	</test>
+</suite>

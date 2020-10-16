@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-03T19:37:36Z" name="Extent TestSuite" finished-at="2020-09-03T19:38:47Z" duration-ms="70379">
+    <groups>
+    </groups>
+    <test started-at="2020-09-03T19:37:36Z" name="Chrome Test" finished-at="2020-09-03T19:38:47Z" duration-ms="70379">
+      <class name="useful.ExtentReportTest1">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:useful.ExtentReportTest1@6ef888f6]" started-at="2020-09-03T19:37:59Z" name="beforeClass" finished-at="2020-09-03T19:38:09Z" duration-ms="10224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test1_validLoginTest()[pri:0, instance:useful.ExtentReportTest1@6ef888f6]" started-at="2020-09-03T19:38:09Z" name="test1_validLoginTest" finished-at="2020-09-03T19:38:22Z" duration-ms="12739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_validLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:useful.ExtentReportTest1@6ef888f6]" started-at="2020-09-03T19:38:22Z" name="tearDown" finished-at="2020-09-03T19:38:22Z" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1_validLoginTest status=SUCCESS method=ExtentReportTest1.test1_validLoginTest()[pri:0, instance:useful.ExtentReportTest1@6ef888f6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:useful.ExtentReportTest1@6ef888f6]" started-at="2020-09-03T19:38:22Z" name="afterClass" finished-at="2020-09-03T19:38:22Z" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- useful.ExtentReportTest1 -->
+      <class name="useful.ExtentReportTest2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:useful.ExtentReportTest2@10e92f8f]" started-at="2020-09-03T19:38:22Z" name="beforeClass" finished-at="2020-09-03T19:38:34Z" duration-ms="11531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test1_validLoginTest()[pri:0, instance:useful.ExtentReportTest2@10e92f8f]" started-at="2020-09-03T19:38:34Z" name="test1_validLoginTest" finished-at="2020-09-03T19:38:46Z" duration-ms="12122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_validLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:useful.ExtentReportTest2@10e92f8f]" started-at="2020-09-03T19:38:46Z" name="tearDown" finished-at="2020-09-03T19:38:46Z" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1_validLoginTest status=SUCCESS method=ExtentReportTest2.test1_validLoginTest()[pri:0, instance:useful.ExtentReportTest2@10e92f8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:useful.ExtentReportTest2@10e92f8f]" started-at="2020-09-03T19:38:46Z" name="afterClass" finished-at="2020-09-03T19:38:47Z" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- useful.ExtentReportTest2 -->
+      <class name="useful.ExtentReportTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:useful.ExtentReportTest@1c93084c]" started-at="2020-09-03T19:37:36Z" name="beforeClass" finished-at="2020-09-03T19:37:49Z" duration-ms="12402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test1_validLoginTest()[pri:0, instance:useful.ExtentReportTest@1c93084c]" started-at="2020-09-03T19:37:49Z" name="test1_validLoginTest" finished-at="2020-09-03T19:37:57Z" duration-ms="8838" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [All Course] but found [Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [All Course] but found [Login]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at useful.ExtentReportTest.test1_validLoginTest(ExtentReportTest.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_validLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:useful.ExtentReportTest@1c93084c]" started-at="2020-09-03T19:37:57Z" name="tearDown" finished-at="2020-09-03T19:37:58Z" duration-ms="543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1_validLoginTest status=FAILURE method=ExtentReportTest.test1_validLoginTest()[pri:0, instance:useful.ExtentReportTest@1c93084c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:useful.ExtentReportTest@1c93084c]" started-at="2020-09-03T19:37:58Z" name="afterClass" finished-at="2020-09-03T19:37:59Z" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- useful.ExtentReportTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Extent TestSuite -->
+</testng-results>
